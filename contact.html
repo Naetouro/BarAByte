@@ -1,0 +1,24 @@
+<head>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <form class="formulaire">
+    <p>
+      <label for="from">From</label>
+      <input type="text" name="" value="" ng-model="mail_from">
+    </p>
+    <p>
+      <label for="to">To</label>
+      <input type="text" name="" value="" ng-model="mail_to">
+    </p>
+    <label for="mes">Message</label>
+    <input type="text-area" name="" value="" ng-model="message">
+    <p><button type="button" name="envoyer" ng-click="clickbutton()">Envoyer</button></p>
+  </form>
+  <label for="ville">Ville</label>
+  <input type="text" name="" value="" ng-model="ville">
+  <button type="button" name="chercher" ng-click="chercherville()">Chercher</button><br>
+  x = {{reponse.data.results[0].geometry.location.lat}}<br>
+  y = {{reponse.data.results[0].geometry.location.lng}}<br>
+  region : {{reponse.data.results[0].address_components[1].long_name}}
+</body>
