@@ -1,0 +1,134 @@
+/* app css stylesheet */
+
+body {
+  padding-top: 0;
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+a {
+  color: rgb(230, 100, 150) !important;
+  font-weight: bold;
+}
+
+.col-md-2 {
+  width: 100% !important;
+  margin-bottom: 2% !important;
+  background-color: rgb(80, 80, 80);
+  padding: 10px;
+}
+
+.col-md-2 input, .col-md-2 select{
+  color: rgb(200, 100, 150);
+}
+
+.col-md-10 {
+  width: 100% !important;
+}
+
+.thumbnail {
+  padding: 20px !important;
+  float: left;
+  background-color: rgb(80, 80, 80);
+  width: 23%;
+  height: 200px !important;
+  margin-right: 1%;
+  display: inline-block;
+}
+
+.phone-images {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.phones {
+  list-style: none;
+}
+
+.thumb {
+  float: left;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  height: 100px;
+  width: 40%;
+
+
+}
+.thumb img {
+  border-radius: 5px;
+}
+
+.phones li {
+  height: 115px;
+  padding-top: 15px;
+}
+
+/** Detail View **/
+img.phone {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 2em;
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+img.phone:first-child {
+  display: block;
+}
+
+
+ul.phone-thumbs {
+  margin: 0;
+  list-style: none;
+}
+
+ul.phone-thumbs li {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1em;
+  background-color: white;
+}
+
+ul.phone-thumbs img {
+  height: 100px;
+  width: 100px;
+  padding: 1em;
+}
+
+ul.phone-thumbs img:hover {
+  cursor: pointer;
+}
+
+
+ul.specs {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.specs > li{
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+ul.specs > li > span{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ul.specs dt {
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}
